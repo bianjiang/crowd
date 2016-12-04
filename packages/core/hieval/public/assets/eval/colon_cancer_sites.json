@@ -1,0 +1,89 @@
+{
+	"treatment" : {
+		"sites" :[
+			"http://emedicine.medscape.com/article/277496-treatment",
+			"http://nihseniorhealth.gov/colorectalcancer/standardtreatments/01.html",
+			"http://patient.info/health/bowel-colorectal-cancer",
+			"http://www.cancer.gov/types/colorectal/patient/colon-treatment-pdq",
+			"http://www.cancer.gov/types/colorectal/patient/rectal-treatment-pdq",
+			"http://www.cancer.org.au/about-cancer/types-of-cancer/bowel-cancer.html",
+			"http://www.cancer.org/cancer/colonandrectumcancer/detailedguide/colorectal-cancer-treating-general-info",
+			"http://www.cancercenter.com/colorectal-cancer/diagnostics-and-treatments/tab/advanced-treatments/",
+			"http://www.cancerresearchuk.org/about-cancer/type/bowel-cancer/treatment/",
+			"http://www.ccalliance.org/get-information/treatment/",
+			"http://www.emedicinehealth.com/colon_cancer/page6_em.htm#medical_treatment",
+			"http://www.mayoclinic.org/diseases-conditions/colon-cancer/basics/treatment/con-20031877",
+			"https://www.mdanderson.org/cancer-types/colon-cancer/colon-cancer-treatment.html",
+			"http://www.medicalnewstoday.com/articles/155598.php?page=2",
+			"http://www.medicinenet.com/colon_cancer/page8.htm#what_are_the_treatments_and_survival_for_colon_cancer",
+			"http://www.nhs.uk/Conditions/Cancer-of-the-colon-rectum-or-bowel/Pages/Introduction.aspx",
+			"http://www.webmd.com/colorectal-cancer/guide/colorectal-cancer-treatment-care",
+			"https://coloncancerfoundation.org/treatment/index.html",
+			"https://en.wikipedia.org/wiki/Colorectal_cancer",
+			"https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/bowel-cancer",
+			"https://www.bowelcanceraustralia.org/treatment",
+			"https://www.bupa.co.uk/health-information/Directory/B/bowel-cancer",
+			"https://www.macmillan.org.uk/information-and-support/bowel-cancer/colon/treating",
+			"https://www.macmillan.org.uk/information-and-support/bowel-cancer/rectal/treating",
+			"https://www.macmillan.org.uk/information-and-support/anal-cancer/treating",
+			"https://www.mskcc.org/cancer-care/types/colorectal/treatment/colon",
+			"https://www.mskcc.org/cancer-care/types/colorectal/treatment/rectal",
+			"https://www.mskcc.org/cancer-care/types/colorectal/treatment/metastases",
+			"https://www.mskcc.org/cancer-care/types/colorectal/treatment/follow-up",
+			"https://www.nlm.nih.gov/medlineplus/ency/article/000262.htm"
+		],
+		"evals": {
+			"group_1" : {
+				"instruments": ["accountability", "presentation_interactivity", "presentation_aesthetics"],
+				"pick": 1
+			},
+			"group_2": {
+				"instruments": ["discern_short_form"],
+				"pick": 1
+			}
+		}
+	},
+	"default": {
+		"sites": [
+			"http://emedicine.medscape.com/article/277496-overview",
+			"http://nihseniorhealth.gov/colorectalcancer/toc.html",
+			"http://patients.gi.org/topics/colorectal-cancer/",
+			"http://www.bowelcanceruk.org.uk/understanding-bowel-cancer/",
+			"http://www.cancer.gov/types/colorectal",
+			"http://www.cancer.net/cancer-types/colorectal-cancer/overview",
+			"http://www.cancer.org/cancer/colonandrectumcancer/overviewguide/colorectal-cancer-overview-what-is-colorectal-cancer",
+			"http://www.cancercenter.com/colorectal-cancer/symptoms/tab/colon-cancer-symptoms/",
+			"http://www.cancerresearchuk.org/about-cancer/type/bowel-cancer/",
+			"http://www.ccalliance.org/get-information/",
+			"http://www.cdc.gov/cancer/colorectal/",
+			"http://www.emedicinehealth.com/colon_cancer/article_em.htm",
+			"http://www.mayoclinic.org/diseases-conditions/colon-cancer/basics/definition/con-20031877",
+			"https://www.mdanderson.org/cancer-types/colon-cancer/colon-cancer-facts.html",
+			"http://www.medicalnewstoday.com/articles/155598.php",
+			"http://www.medicinenet.com/colon_cancer/article.htm",
+			"http://www.webmd.com/colorectal-cancer/",
+			"https://coloncancerfoundation.org/about_colon_cancer/index.html",
+			"https://en.wikipedia.org/wiki/Colorectal_cancer",
+			"https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/bowel-cancer",
+			"https://www.bowelcanceraustralia.org/understanding-bowel-cancer",
+			"https://www.bupa.co.uk/health-information/Directory/B/bowel-cancer",
+			"https://www.gov.uk/guidance/bowel-cancer-screening-programme-overview",
+			"https://www.macmillan.org.uk/information-and-support/bowel-cancer",
+			"https://www.mskcc.org/cancer-care/types/colorectal/about",
+			"https://www.nice.org.uk/guidance/cg131",
+			"https://www.nlm.nih.gov/medlineplus/colorectalcancer.html",
+			"https://www.nlm.nih.gov/medlineplus/ency/article/000262.htm"
+		],
+		"evals": {
+			"group_1" : {
+				"instruments": ["accountability", "presentation_interactivity", "presentation_aesthetics"],
+				"pick": 1
+			},
+			"group_2": {
+				"instruments": ["discern_part1"],
+				"pick": 1
+			}
+		}
+	}
+
+}

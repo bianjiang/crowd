@@ -1,0 +1,135 @@
+{
+  "form": [
+    {
+      "type": "help",
+      "helpvalue": "<b>Presentation - Interactivity:</b>"
+    },
+    {
+      "key": "intact1",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Yes"
+        },
+        {
+          "value": 2,
+          "name": "No"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "intact2",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Yes"
+        },
+        {
+          "value": 2,
+          "name": "No"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "intact3",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Yes"
+        },
+        {
+          "value": 2,
+          "name": "No"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "intact4",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Yes"
+        },
+        {
+          "value": 2,
+          "name": "No"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "intact5",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Yes"
+        },
+        {
+          "value": 2,
+          "name": "No"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "type": "submit",
+      "style": "btn-info",
+      "title": "Submit"
+    }
+  ],
+  "schema": {
+    "type": "object",
+    "properties": {
+      "intact1": {
+        "title": "1. Does the website have an internal search engine?",
+        "type": "integer"
+      },
+      "intact2": {
+        "title": "2. Does the website have any audio or video support?",
+        "type": "integer"
+      },
+      "intact3": {
+        "title": "3. Does the website have any user satisfaction evaluation questionnaire?",
+        "type": "integer"
+      },
+      "intact4": {
+        "title": "4. Does the website provide contact information for sending questions to the webmaster or authors?",
+        "type": "integer"
+      },
+      "intact5": {
+        "title": "5. Does the website have any supporting bodies, such as forums, chat, or social networking?",
+        "type": "integer"
+      }
+    },
+    "required": [
+      "intact1",
+      "intact2",
+      "intact3",
+      "intact4",
+      "intact5"
+    ]
+  }
+}

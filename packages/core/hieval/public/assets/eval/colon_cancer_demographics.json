@@ -1,0 +1,276 @@
+{
+  "form": [
+    {
+      "key": "seek",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Yes"
+        },
+        {
+          "value": 2,
+          "name": "No"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "age",
+      "type": "select",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "17 or younger"
+        },
+        {
+          "value": 2,
+          "name": "18 – 20"
+        },
+        {
+          "value": 3,
+          "name": "21 – 29"
+        },
+        {
+          "value": 4,
+          "name": "30 – 39"
+        },
+        {
+          "value": 5,
+          "name": "40 – 49"
+        },
+        {
+          "value": 6,
+          "name": "50 – 59"
+        },
+        {
+          "value": 7,
+          "name": "60 – 64"
+        },
+        {
+          "value": 8,
+          "name": "65 or older"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "sex",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Male"
+        },
+        {
+          "value": 2,
+          "name": "Female"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "race",
+      "type": "select",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "White"
+        },
+        {
+          "value": 2,
+          "name": "Black or African-American"
+        },
+        {
+          "value": 3,
+          "name": "Asian"
+        },
+        {
+          "value": 4,
+          "name": "Native Hawaiian or other Pacific Islander"
+        },
+        {
+          "value": 5,
+          "name": "American Indian or Alaska Native"
+        },
+        {
+          "value": 6,
+          "name": "Other"
+        },
+        {
+          "value": 7,
+          "name": "Two or more races"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "hisp",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Yes"
+        },
+        {
+          "value": 2,
+          "name": "No"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "edu",
+      "type": "select",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "8th grade or less"
+        },
+        {
+          "value": 2,
+          "name": "Some high school, but did not graduate"
+        },
+        {
+          "value": 3,
+          "name": "High school graduate or GED"
+        },
+        {
+          "value": 4,
+          "name": "Some college or 2-year degree"
+        },
+        {
+          "value": 5,
+          "name": "4-year college graduate"
+        },
+        {
+          "value": 6,
+          "name": "More than 4-year college degree"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "ses",
+      "type": "select",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "I really can’t make ends meet"
+        },
+        {
+          "value": 2,
+          "name": "I manage to get by"
+        },
+        {
+          "value": 3,
+          "name": "I have enough to manage plus some extra"
+        },
+        {
+          "value": 4,
+          "name": "Money is not a problem; I can buy about whatever I want"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },{
+      "key": "know",
+      "type": "select",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Nothing"
+        },
+        {
+          "value": 2,
+          "name": "A little"
+        },
+        {
+          "value": 3,
+          "name": "Some"
+        },
+        {
+          "value": 4,
+          "name": "A lot"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "type": "submit",
+      "style": "btn-info",
+      "title": "Submit"
+    }
+  ],
+  "schema": {
+    "type": "object",
+    "properties": {
+      "seek": {
+        "title": "1. How you ever looked online for health information about colorectal cancer in the last 12 months?",
+        "type": "integer"
+      },
+      "age": {
+        "title": "2. How old are you?",
+        "type": "integer"
+      },
+      "sex": {
+        "title": "3. What is your sex?",
+        "type": "integer"
+      },
+      "race": {
+        "title": "4. What is your race?",
+        "type": "integer"
+      },
+      "hisp": {
+        "title": "5. Are you of Hispanic or Latino origin or descent?",
+        "type": "integer"
+      },
+      "edu": {
+      	"title": "6. What is the highest degree or level of school that you have completed?",
+      	"type": "integer",
+      	"description": "*If currently enrolled, mark the previous grade or highest degree received."
+      },
+      "ses": {
+      	"title": "7. Which of these statements best describe your present financial status?",
+      	"type": "integer"
+      },
+      "know": {
+      	"title": "8. How much do you know about colorectal cancer?",
+      	"type": "integer"
+      }
+    },
+    "required": [
+      "seek",
+      "age",
+      "sex",
+      "race",
+      "hisp",
+      "edu",
+      "ses",
+      "know"
+    ]
+  }
+}

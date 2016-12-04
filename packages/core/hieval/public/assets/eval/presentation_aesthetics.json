@@ -1,0 +1,112 @@
+{
+  "form": [
+    {
+      "type": "help",
+      "helpvalue": "<b>Presentation - Aesthentics:</b>"
+    },
+    {
+      "key": "aest1",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Yes"
+        },
+        {
+          "value": 2,
+          "name": "No"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "aest2",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Yes"
+        },
+        {
+          "value": 2,
+          "name": "No"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "aest3",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Yes"
+        },
+        {
+          "value": 2,
+          "name": "No"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "aest4",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Yes"
+        },
+        {
+          "value": 2,
+          "name": "No"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "type": "submit",
+      "style": "btn-info",
+      "title": "Submit"
+    }
+  ],
+  "schema": {
+    "type": "object",
+    "properties": {
+      "aest1": {
+        "title": "1. Does the webpage have distinguishable headings?",
+        "type": "integer"
+      },
+      "aest2": {
+        "title": "2. Does the webpage have any relevant graphics?",
+        "type": "integer"
+      },
+      "aest3": {
+        "title": "3. Does the webpage have any outside advertisements within the body of the text?",
+        "type": "integer"
+      },
+      "aest4": {
+        "title": "4.Does the website provide any hyperlinks to relevant external sites?",
+        "type": "integer"
+      }
+    },
+    "required": [
+      "aest1",
+      "aest2",
+      "aest3",
+      "aest4"
+    ]
+  }
+}

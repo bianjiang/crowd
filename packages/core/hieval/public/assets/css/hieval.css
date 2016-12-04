@@ -1,0 +1,26 @@
+.error {
+    color: red;
+}
+
+.fill { 
+    min-height: 95%;
+    height: 95%;
+    height:95vh;
+}
+
+.holds-the-iframe {
+  background:url(../img/loading.gif) center center no-repeat;
+ }
+
+/*
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}*/

@@ -1,0 +1,115 @@
+{
+  "form": [
+    {
+      "type": "help",
+      "helpvalue": "<b>Accountability:</b>"
+    },
+    {
+      "key": "acct1",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Yes"
+        },
+        {
+          "value": 2,
+          "name": "No"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "acct2",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Yes"
+        },
+        {
+          "value": 2,
+          "name": "No"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "acct3",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Yes"
+        },
+        {
+          "value": 2,
+          "name": "No"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "key": "acct4",
+      "type": "radios-inline",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "Yes"
+        },
+        {
+          "value": 2,
+          "name": "No"
+        },
+        {
+          "value": -8,
+          "name": "Not sure"
+        }
+      ]
+    },
+    {
+      "type": "submit",
+      "style": "btn-info",
+      "title": "Submit"
+    }
+  ],
+  "schema": {
+    "type": "object",
+    "properties": {
+      "acct1": {
+        "title": "1. Is the article or website credible?",
+        "type": "integer",
+        "description": "It is considered credible if: <ul><li>the names or affiliations of the authors are disclosed, or</li><li>the website is owned by a credible organization, such as .gov websites</li></ul>"
+      },
+      "acct2": {
+        "title": "2. Are the sources of information or references given?",
+        "type": "integer",
+        "description": "Look for a list of references at the end of the article or sentences in the article that disclose information sources."
+      },
+      "acct3": {
+        "title": "3. Is the ownership of the webpage disclosed?",
+        "type": "integer",
+        "description": "Possible places to check: the domain name; the 'About Us' link, etc."
+      },
+      "acct4": {
+        "title": "4. Has the webpage been updated in the previous 6 month?",
+        "type": "integer"
+      }
+    },
+    "required": [
+      "acct1",
+      "acct2",
+      "acct3",
+      "acct4"
+    ]
+  }
+}

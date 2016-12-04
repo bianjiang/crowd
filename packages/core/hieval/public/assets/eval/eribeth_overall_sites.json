@@ -1,0 +1,22 @@
+{
+    "treatment" : {
+        "sites" :[
+            "http://goo.gl/zGJE3K",
+            "http://goo.gl/q2brzK",
+            "http://goo.gl/V8UCEC",
+            "http://goo.gl/5cZre7",
+            "http://goo.gl/7ahq6t",
+            "https://goo.gl/Nojp04",
+            "http://goo.gl/yDGDBr",
+            "https://goo.gl/Jnn3BP",
+            "https://goo.gl/einffy",
+            "https://goo.gl/FkQTzn"
+        ],
+        "evals": {
+            "group": {
+                "instruments": ["overall", "final"],
+                "pick": "all"
+            }
+        }
+    }
+}

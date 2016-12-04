@@ -1,0 +1,212 @@
+{
+  "form": [
+    {
+      "type": "help",
+      "helpvalue": "<b>Quality:</b>"
+    },
+    {
+      "key": "discn1",
+      "type": "radios",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "1 - No"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        },
+        {
+          "value": 3,
+          "name": "3 - Partially"
+        },
+        {
+          "value": 4,
+          "name": "4"
+        },
+        {
+          "value": 5,
+          "name": "5 - Yes"
+        }
+      ]
+    },
+    {
+      "key": "discn2",
+      "type": "radios",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "1 - No"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        },
+        {
+          "value": 3,
+          "name": "3 - Partially"
+        },
+        {
+          "value": 4,
+          "name": "4"
+        },
+        {
+          "value": 5,
+          "name": "5 - Yes"
+        }
+      ]
+    },
+    {
+      "key": "discn3",
+      "type": "radios",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "1 - No"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        },
+        {
+          "value": 3,
+          "name": "3 - Partially"
+        },
+        {
+          "value": 4,
+          "name": "4"
+        },
+        {
+          "value": 5,
+          "name": "5 - Yes"
+        }
+      ]
+    },
+    {
+      "key": "discn4",
+      "type": "radios",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "1 - No"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        },
+        {
+          "value": 3,
+          "name": "3 - Partially"
+        },
+        {
+          "value": 4,
+          "name": "4"
+        },
+        {
+          "value": 5,
+          "name": "5 - Yes"
+        }
+      ]
+    },
+    {
+      "key": "discn5",
+      "type": "radios",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "1 - No"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        },
+        {
+          "value": 3,
+          "name": "3 - Partially"
+        },
+        {
+          "value": 4,
+          "name": "4"
+        },
+        {
+          "value": 5,
+          "name": "5 - Yes"
+        }
+      ]
+    },
+    {
+      "key": "discn6",
+      "type": "radios",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "1 - No"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        },
+        {
+          "value": 3,
+          "name": "3 - Partially"
+        },
+        {
+          "value": 4,
+          "name": "4"
+        },
+        {
+          "value": 5,
+          "name": "5 - Yes"
+        }
+      ]
+    },
+    {
+      "type": "submit",
+      "style": "btn-info",
+      "title": "Submit"
+    }
+  ],
+  "schema": {
+    "type": "object",
+    "properties": {
+      "discn1": {
+        "title": "1. Is it clear what sources of information were used to compile the publication (other than the author or producer)?",
+        "type": "integer",
+        "description": "<b>HINT</b><ul><li>Check whether the main claims or statements made about treatment choices are accompanied by a reference to the sources used as evidence, e.g. a research study or expert opinion.</li><li>Look for a means of checking the sources used such as a bibliography/reference list or the addresses of the experts or organizations quoted.</li></ul><b>Rating note: In order to score a full '5' the publication should fulfil both hints. Lists of additional sources of support and information are not necessarily sources of evidence for the current publication.</b>"
+      },
+      "discn2": {
+        "title": "2. Is it clear when the information used or reported in the publication was produced?",
+        "type": "integer",
+        "description": "<b>HINT</b> Look for:<ul><li>dates of the main sources of information used to compile the publication</li><li>date of any revisions of the publication (but not dates of reprinting)</li><li>date of publication (copyright date).</li></ul><b>Rating note: The hints are placed in order of importance – in order to score a full ‘5’ the dates relating to the first hint should be found.</b>"
+      },
+      "discn3": {
+        "title": "3. Does it describe how each treatment works?",
+        "type": "integer",
+        "description": "<b>HINT</b> Look for a description of how a treatment acts on the body to achieve its effect."
+      },
+      "discn4": {
+        "title": "4. Does it describe the benefits of each treatment?",
+        "type": "integer",
+        "description": "<b>HINT</b> Benefits can include controlling or getting rid of symptoms, preventing recurrence of the condition and eliminating the condition, both short-term and long-term."
+      },
+      "discn5": {
+        "title": "5. Does it describe the risks of each treatment?",
+        "type": "integer",
+        "description": "<b>HINT</b> Risks can include side-effects, complications and adverse reactions to treatment, both short-term and long-term."
+      },
+      "discn6": {
+        "title": "6. Does it describe how the treatment choices affect overall quality of life?",
+        "type": "integer",
+        "description": "<b>HINT</b> Look for: <ul><li>description of the effects of the treatment choices on day-to-day activity</li><li>description of the effects of the treatment choices on relationships with family, friends and careers.</li></ul>"
+      }
+    },
+    "required": [
+      "discn1",
+      "discn2",
+      "discn3",
+      "discn4",
+      "discn5",
+      "discn6"
+    ]
+  }
+}

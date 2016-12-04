@@ -1,0 +1,32 @@
+<section ng-controller="HIEvalExpertController" class="fill">
+
+	<div class="row">
+		<div class="col-md-12">
+			<div class="error" ng-show="error">{{error}}</div>
+		</div>
+	</div>
+
+	<!-- <div class="row" style="margin-bottom: 2em;">
+		<div class="col-md-12">
+			<h3>Please read the article on the left, and answer the questions on the right.</h3>
+		</div>
+	</div> -->
+
+	<div class="row" ng-show="!error">
+		<div class="col-md-8 fill holds-the-iframe no-float">
+<!-- 		<ul>
+			If the content is spread across multiple web pages (but linked through hyperlinks), please read through all related pages and evaluate the collection of 
+		</ul>-->
+		<h4 style="color:red;">If the page on the left doesn't load, please open it in a new window using the link below.</h4> 
+		<a href="{{siteUrl}}" target="_blank"><h4>Open the site in a new window</h4></a><br/>
+	      	<iframe ng-src="{{siteUrl | trustAsResourceUrl}}" frameborder="0" style="width: 100%; height: 300%;" sandbox=""></iframe>
+	    </div>
+	    <div class="col-md-4 no-float">
+	      <form name="responseForm" sf-options="{ destroyStrategy: 'remove'}" sf-schema="schema" sf-form="form" sf-model="response" ng-submit="submit(responseForm)"></form>
+	      <!-- <div ng-show="responseForm.$valid"><em>Form is valid</em></div>
+      	  <div ng-show="responseForm.$invalid"><em>Form is not valid</em></div>
+      	  <h3>Model</h3>
+      	  <pre ng-cloak>{{pretty()}}</pre>
+	   	</div> -->
+	</div>
+</section>

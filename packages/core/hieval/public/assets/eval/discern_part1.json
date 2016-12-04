@@ -1,0 +1,278 @@
+{
+  "form": [
+    {
+      "type": "help",
+      "helpvalue": "<b>Quality:</b>"
+    },
+    {
+      "key": "discnp1",
+      "type": "radios",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "1 - No"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        },
+        {
+          "value": 3,
+          "name": "3 - Partially"
+        },
+        {
+          "value": 4,
+          "name": "4"
+        },
+        {
+          "value": 5,
+          "name": "5 - Yes"
+        }
+      ]
+    },
+    {
+      "key": "discnp2",
+      "condition": "response.discnp1 > 1",
+      "destroyStrategy": "remove",
+      "type": "radios",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "1 - No"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        },
+        {
+          "value": 3,
+          "name": "3 - Partially"
+        },
+        {
+          "value": 4,
+          "name": "4"
+        },
+        {
+          "value": 5,
+          "name": "5 - Yes"
+        }
+      ]
+    },
+    {
+      "key": "discnp3",
+      "type": "radios",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "1 - No"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        },
+        {
+          "value": 3,
+          "name": "3 - Partially"
+        },
+        {
+          "value": 4,
+          "name": "4"
+        },
+        {
+          "value": 5,
+          "name": "5 - Yes"
+        }
+      ]
+    },
+    {
+      "key": "discnp4",
+      "type": "radios",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "1 - No"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        },
+        {
+          "value": 3,
+          "name": "3 - Partially"
+        },
+        {
+          "value": 4,
+          "name": "4"
+        },
+        {
+          "value": 5,
+          "name": "5 - Yes"
+        }
+      ]
+    },
+    {
+      "key": "discnp5",
+      "type": "radios",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "1 - No"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        },
+        {
+          "value": 3,
+          "name": "3 - Partially"
+        },
+        {
+          "value": 4,
+          "name": "4"
+        },
+        {
+          "value": 5,
+          "name": "5 - Yes"
+        }
+      ]
+    },
+    {
+      "key": "discnp6",
+      "type": "radios",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "1 - No"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        },
+        {
+          "value": 3,
+          "name": "3 - Partially"
+        },
+        {
+          "value": 4,
+          "name": "4"
+        },
+        {
+          "value": 5,
+          "name": "5 - Yes"
+        }
+      ]
+    },
+    {
+      "key": "discnp7",
+      "type": "radios",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "1 - No"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        },
+        {
+          "value": 3,
+          "name": "3 - Partially"
+        },
+        {
+          "value": 4,
+          "name": "4"
+        },
+        {
+          "value": 5,
+          "name": "5 - Yes"
+        }
+      ]
+    },
+    {
+      "key": "discnp8",
+      "type": "radios",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "1 - No"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        },
+        {
+          "value": 3,
+          "name": "3 - Partially"
+        },
+        {
+          "value": 4,
+          "name": "4"
+        },
+        {
+          "value": 5,
+          "name": "5 - Yes"
+        }
+      ]
+    },
+    {
+      "type": "submit",
+      "style": "btn-info",
+      "title": "Submit"
+    }
+  ],
+  "schema": {
+    "type": "object",
+    "properties": {
+      "discnp1": {
+        "title": "1. Are the aims clear?",
+        "type": "integer",
+        "description": "<b>HINT</b> Look for a clear indication at the beginning of the publication of:<ul><li>what it is about</li><li>what it is meant to cover (and what topics are meant to be excluded)</li><li>who might find it useful.</li></ul>"
+      },
+      "discnp2": {
+        "title": "2. Does it achieve its aims?",
+        "type": "integer",
+        "description": "<b>HINT</b> Consider whether the publication provides the information it aimed to as outlined in Question 1."
+      },
+      "discnp3": {
+        "title": "3. Is it relevant?",
+        "type": "integer",
+        "description": "<b>HINT</b> Consider whether: <ul><li>the publication addresses the questions that readers might ask</li><li>recommendations and suggestions concerning treatment choices are realistic or appropriate.</li></ul>"
+      },
+      "discnp4": {
+        "title": "4. Is it clear what sources of information were used to compile the publication (other than the author or producer)?",
+        "type": "integer",
+        "description": "<b>HINT</b> <ul><li>Check whether the main claims or statements made about treatment choices are accompanied by a reference to the sources used as evidence, e.g. a research study or expert opinion.</li><li>Look for a means of checking the sources used such as a bibliography/reference list or the addresses of the experts or organizations quoted.</li></ul><b>Rating note: In order to score a full ‘5’ the publication should fulfil both hints. Lists of additional sources of support and information (Q7) are not necessarily sources of evidence for the current publication.</b>"
+      },
+      "discnp5": {
+        "title": "5. Is it clear when the information used or reported in the publication was produced?",
+        "type": "integer",
+        "description": "<b>HINT</b> Look for:<ul><li>dates of the main sources of information used to compile the publication</li><li>date of any revisions of the publication (but not dates of reprinting)</li><li>date of publication (copyright date).</li></ul><b>Rating note: The hints are placed in order of importance – in order to score a full ‘5’ the dates relating to the first hint should be found.</b>"
+      },
+      "discnp6": {
+        "title": "6. Is it balanced and unbiased?",
+        "type": "integer",
+        "description": "<b>HINT</b> Look for: <ul><li>a clear indication of whether the publication is written from a personal or objective point of view</li><li>evidence that a range of sources of information was used to compile the publication, e.g. more than one research study or expert</li><li>evidence of an external assessment of the publication.</li></ul> Be wary if: <ul><li>the publication focuses on the advantages or disadvantages of one particular treatment choice without reference to other possible choices</li><li>the publication relies primarily on evidence from single cases (which may not be typical of people with this condition or of responses to a particular treatment)</li><li>the information is presented in a sensational, emotive or alarmist way.</li></ul>"
+      },
+      "discnp7": {
+        "title": "7. Does it provide details of additional sources of support and information?",
+        "type": "integer",
+        "description": "<b>HINT</b> Look for suggestions for further reading or for details of other organizations providing advice and information about the condition and treatment choices."
+      },
+      "discnp8": {
+        "title": "8. Does it refer to areas of uncertainty?",
+        "type": "integer",
+        "description": "<b>HINT</b> <ul><li>Look for discussion of the gaps in knowledge or differences in expert opinion concerning treatment choices.</li><li>Be wary if the publication implies that a treatment choice affects everyone in the same way, e.g. 100% success rate with a particular treatment.</li></ul>"
+      }
+    },
+    "required": [
+      "discnp1",
+      "discnp2",
+      "discnp3",
+      "discnp4",
+      "discnp5",
+      "discnp6",
+      "discnp7",
+      "discnp8"
+    ]
+  }
+}

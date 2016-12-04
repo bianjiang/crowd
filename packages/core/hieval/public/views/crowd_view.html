@@ -1,0 +1,61 @@
+<section ng-controller="HIEvalCrowdController" class="fill">
+
+	<div class="row">
+		<div class="col-md-12">
+			<div class="error" ng-show="error">{{error}}</div>
+		</div>
+	</div>
+
+	<div class="row" ng-show="!consented">
+		<div class="col-md-12">
+			<h4>Assessing the Quality of Cancer-related Online Health Information</h4>
+			<p>Contact:</br>
+				Jiang Bian</br>
+				Health Outcomes and Policy</br>
+				University of Florida</br>
+				352-273-8878</br>
+				bianjiang@ufl.edu</br>
+			</p>
+			<ul>
+				<li>1.	Purpose of the Study: The purpose of this research study is to explore methods to assess the quality of online health information pertaining to cancer.</li>
+
+				<li>2.	Eligibility: Adults over the age of 21.</li>
+
+				<li>3.	Procedures to be followed: You will be asked to interact with a web site containing information related to colon cancer and answer no more than 14 questions on a survey. The survey will ask for some basic demographics (i.e., age, gender, race, ethnicity, education and socioeconomic status), but does not collect any identifiable information.</li>
+
+				<li>4.	Duration:  It will take about 10 minutes to read the online health information and complete the survey.</li>
+
+				<li>5.	Research Benefits:  There is no direct benefit to you for being in this study.  There may be a benefit to others depending on the results of this study.</li>
+
+				<li>6.	Statement of Confidentiality: Your participation in this research is confidential. The survey does not ask for any information that would identify who the responses belong to. In the event of any publication or presentation resulting from the research, no personally identifiable information will be shared because your name is in no way linked to your responses.</li>
+
+				<li>7.	Right to Ask Questions: Please contact Jiang Bian at (352) 273-8877 or bianjiang@ufl.edu with questions or concerns about this study.</li>
+
+				<li>8.	Voluntary Participation: Your decision to be in this research is voluntary. You can stop at any time. You do not have to answer any questions you do not want to answer. If you have any questions about your rights as a research subject, you can phone the Institutional Review Board at 352-273-9600.</li>
+
+				<li>9.	Re-contact: At the end of the survey, you will be asked whether you are willing to be re-contacted to complete the same survey after 4 weeks. This is needed for us to measure the instruments test-retest reliability. Your participation of the follow-up survey is NOT required. If you are willing to be re-contacted for this purpose. Please leave your email address at the end of the survey, and we will email you the survey again in 4 weeks. You will be randomly assigned a unique pseudo-identifier upon initial consent; and your responses to both surveys will be associated with the assigned pseudo-identifier.</li>
+
+			</ul>
+			<h4>Completion and return of the survey implies that you have read the information in this form and consent to take part in the research. Please keep this form for your records or future reference.</h4>
+			<button ng-click="accept_consent()">Accept and Continue</button> or <b>Close this site if you do not wish to participate.</b>
+		</div>
+	</div>
+
+	<div class="row" ng-show="consented">
+		<div class="col-md-8 fill holds-the-iframe">
+<!-- 		<ul>
+			If the content is spread across multiple web pages (but linked through hyperlinks), please read through all related pages and evaluate the collection of 
+		</ul>-->
+		<h4 style="color:red;">If the page on the left doesn't load, please open it in a new window using the link below.</h4> 
+		<a href="{{siteUrl}}" target="_blank"><h4>Open the site in a new window</h4></a><br/>
+	      	<iframe ng-src="{{siteUrl | trustAsResourceUrl}}" frameborder="0" style="width: 100%; height: 90%;"></iframe>
+	    </div>
+	    <div class="col-md-4">
+	      <form name="responseForm" sf-options="{ destroyStrategy: 'remove'}" sf-schema="schema" sf-form="form" sf-model="response" ng-submit="submit(responseForm)"></form>
+	      <!-- <div ng-show="responseForm.$valid"><em>Form is valid</em></div>
+      	  <div ng-show="responseForm.$invalid"><em>Form is not valid</em></div>
+      	  <h3>Model</h3>
+      	  <pre ng-cloak>{{pretty()}}</pre>
+	   	</div> -->
+	</div>
+</section>

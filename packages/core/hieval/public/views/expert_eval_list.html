@@ -1,0 +1,31 @@
+<section ng-controller="HIEvalExpertListController" class="fill">
+
+	<div class="row">
+		<div class="col-md-12">
+			<div class="error" ng-show="error">{{error}}</div>
+		</div>
+	</div>
+
+	<!-- <div class="row" style="margin-bottom: 2em;">
+		<div class="col-md-12">
+			<h3>Please read the article on the left, and answer the questions on the right.</h3>
+		</div>
+	</div> -->
+
+	<div class="row">
+		<div class="col-md-12">
+			<h4>Instruments:</h4> 
+			<ul>
+				<li ng-repeat="instrument in instruments">
+					{{instrument}}
+				</li>
+			</ul>
+			<h4>Sites:</h4>
+			<ul>
+				<li ng-repeat="site in sites">
+					<a href="/hieval/expert/colon_cancer?expert={{expert}}&siteUrl={{site}}" target="_blank">{{site}}</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>

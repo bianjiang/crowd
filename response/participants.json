@@ -1,0 +1,14 @@
+{ "_id" : { "$oid" : "56e74b684873dd3278025c3d" }, "identifier" : "test", "source" : "expert", "created" : { "$date" : 1457998696860 }, "__v" : 0 }
+{ "_id" : { "$oid" : "56e81b3c4873dd3278025c44" }, "identifier" : "thom", "source" : "expert", "created" : { "$date" : 1458051900736 }, "__v" : 0 }
+{ "_id" : { "$oid" : "56e88d305ad1ab821ecbae7a" }, "identifier" : "danmeng", "source" : "expert", "created" : { "$date" : 1458081072134 }, "__v" : 0 }
+{ "_id" : { "$oid" : "56e973aaa112da9121441047" }, "identifier" : "tianyao", "source" : "expert", "created" : { "$date" : 1458140074683 }, "__v" : 0 }
+{ "_id" : { "$oid" : "56e9b405a112da9121441049" }, "identifier" : "eribeth", "source" : "expert", "created" : { "$date" : 1458156549273 }, "__v" : 0 }
+{ "_id" : { "$oid" : "56e9cbd2a112da9121441073" }, "identifier" : "bian", "source" : "expert", "created" : { "$date" : 1458162642229 }, "__v" : 0 }
+{ "_id" : { "$oid" : "56e9e1f4a112da912144107b" }, "identifier" : "aditi", "source" : "expert", "created" : { "$date" : 1458168308640 }, "__v" : 0 }
+{ "_id" : { "$oid" : "56ec45ba38e4238632b588f3" }, "identifier" : "yanning", "type" : "expert", "source" : "expert", "created" : { "$date" : 1458324922452 }, "__v" : 0 }
+{ "_id" : { "$oid" : "56f0492838e4238632b58924" }, "identifier" : "eribeth_overall", "type" : "expert", "source" : "expert", "created" : { "$date" : 1458587944434 }, "__v" : 0 }
+{ "_id" : { "$oid" : "57a78111f965ac033ce2590e" }, "identifier" : "accepted_consent|http://www.cancer.org/cancer/colonandrectumcancer/overviewguide/colorectal-cancer-overview-what-is-colorectal-cancer", "created" : { "$date" : 1470595345346 }, "__v" : 0 }
+{ "_id" : { "$oid" : "57ab31aff965ac033ce25910" }, "identifier" : "accepted_consent|https://www.nlm.nih.gov/medlineplus/colorectalcancer.html", "created" : { "$date" : 1470837167704 }, "__v" : 0 }
+{ "_id" : { "$oid" : "57ab31ebf965ac033ce25912" }, "identifier" : "accepted_consent|https://www.nlm.nih.gov/medlineplus/colorectalcancer.html", "created" : { "$date" : 1470837227123 }, "__v" : 0 }
+{ "_id" : { "$oid" : "57b3248bf965ac033ce25914" }, "identifier" : "alex", "type" : "expert", "source" : "expert", "created" : { "$date" : 1471358091893 }, "__v" : 0 }
+{ "_id" : { "$oid" : "57b327f5f965ac033ce25916" }, "identifier" : "sara", "type" : "expert", "source" : "expert", "created" : { "$date" : 1471358965823 }, "__v" : 0 }

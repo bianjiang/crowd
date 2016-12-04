@@ -1,0 +1,51 @@
+{
+  "form": [
+    {
+      "type": "help",
+      "helpvalue": "<b>Overall:</b>"
+    },
+    {
+      "key": "overall",
+      "type": "radios",
+      "titleMap": [
+        {
+          "value": 1,
+          "name": "1 - Worst"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        },
+        {
+          "value": 3,
+          "name": "3"
+        },
+        {
+          "value": 4,
+          "name": "4"
+        },
+        {
+          "value": 5,
+          "name": "5 - Best"
+        }
+      ]
+    },
+    {
+      "type": "submit",
+      "style": "btn-info",
+      "title": "Submit"
+    }
+  ],
+  "schema": {
+    "type": "object",
+    "properties": {
+      "overall": {
+        "title": "Please provide an overall quality score of the articile.",
+        "type": "integer"
+      }
+    },
+    "required": [
+      "overall"
+    ]
+  }
+}
